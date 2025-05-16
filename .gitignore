@@ -1,0 +1,37 @@
+# Nextflow working and output directories
+work/
+results/
+output/
+.nf/
+
+# Nextflow log and cache files
+.nextflow*
+!.nextflow.config
+.nextflow.log
+.nextflow.cache
+.nextflow.reports/
+.nextflow.trace
+.nextflow.timeline
+.nextflow.dag.png
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Conda and virtualenv environments
+.conda/
+envs/
+.venv/
+venv/
+__pycache__/
+
+# Docker and Singularity images
+*.img
+*.sif
+
+# Miscellaneous
+.DS_Store
+*.log
